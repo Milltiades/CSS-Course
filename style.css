@@ -57,6 +57,8 @@ div .text {
 .flexbox-container {
 
   display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -68,6 +70,7 @@ div .text {
 }
 
 .flexbox-item-1 {
+    flex: 1 0 0px;
   min-height: 100px;
   flex-shrink: 0;
   align-self: flex-end;
