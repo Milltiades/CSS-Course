@@ -24,7 +24,7 @@ div .text {
 
 /* Box Model */
 
-*{
+/* *{
     padding: 0;
     margin: 0;
     font-size: 40px;
@@ -47,4 +47,6 @@ div .text {
     height: 100px;
     padding: 10px;
     margin: 80px;
-}
+} */
+
+/* Flexbox */
