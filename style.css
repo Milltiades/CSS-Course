@@ -1,7 +1,23 @@
 .header {
-    color: red;
+    color: red ;
 }
 
 .text {
-    color: green;
+    color: green ;
+}
+
+#header-id {
+    color: black;
+}
+
+p{
+    color: yellow ;
+}
+
+#text-id {
+    color: blue;
+}
+
+div .text {
+    color: brown !important;
 }
