@@ -50,6 +50,15 @@ div .text {
 } */
 
 /* Flexbox */
+*{
+    box-sizing: border-box;
+}
+
+.flexbox-container {
+    
+    display: flex;
+    justify-content: space-between;
+}
 
 .flexbox-item {
     width: 200px;
