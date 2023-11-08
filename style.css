@@ -28,18 +28,23 @@ div .text {
     padding: 0;
     margin: 0;
     font-size: 40px;
+    box-sizing: border-box;
+    
 }
 
 .box-one {
     background-color: red;
-    border: 0 solid pink;
-    width: 100vw;
-    height: 50px;
-    padding: 20px;
+    border: 20px solid pink;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px;
 }
 .box-two {
     background-color: blue;
-    border: 0 solid green;
-    width: 100vw;
-    height: 50px;
+    border: 30px solid green;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 80px;
 }
