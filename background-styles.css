@@ -1,4 +1,4 @@
-/* Background Styles */
+/* Background Styles
 html {
     height: 100%;
     background-color: #333;
@@ -123,4 +123,4 @@ html {
 
 .flexbox-item-6::after {
     content: '6';
-}
+} */
