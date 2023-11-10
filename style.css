@@ -97,7 +97,7 @@ div .text {
 
 
 /* Grid */
-
+/* 
 .grid-container {
   padding: 20px;
   display: grid;
@@ -109,9 +109,19 @@ div .text {
  align-items: stretch;
 }
 .grid-item-1 {
-  align-self: start;
-  justify-self: center;
+
 }
+.grid-item-2 {
+ 
+}
+.grid-item-3 {
+  
+}
+.grid-item-4 {
+  
+}
+
+
 
 .grid-item {
   background: blue;
@@ -122,4 +132,7 @@ div .text {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
+
+
+/* animation */
