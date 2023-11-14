@@ -181,7 +181,7 @@ transform: translateX(100%) translateY(100%);
   }
 } */
 
-body {
+/* body {
   color: red;
 }
 
@@ -210,4 +210,32 @@ body {
     color: cyan;
   }
 }
+ */
+body {
+  display: flex;
+}
 
+ .box {
+  background: rebeccapurple;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+ }
+
+ .main {
+  flex-grow: 1;
+ }
+
+ .sidebar {
+  width: 30%;
+  border-left: 1px solid black;
+ }
+
+ .main, .sidebar {
+  container-type: inline-size;
+ }
+ @container (width >= 600px) {
+  .box {
+    background: red;
+  }
+ }
