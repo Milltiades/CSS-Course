@@ -95,7 +95,6 @@ div .text {
  
 } */
 
-
 /* Grid */
 /* 
 .grid-container {
@@ -134,9 +133,7 @@ div .text {
   align-items: center;
 } */
 
-
 /* animation */
-
 
 /* .parent {
   background-color: hsla(200, 100%, 20%);
@@ -211,7 +208,7 @@ transform: translateX(100%) translateY(100%);
   }
 }
  */
-body {
+/* body {
   display: flex;
 }
 
@@ -238,4 +235,26 @@ body {
   .box {
     background: red;
   }
- }
+ } */
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+.box {
+  background: rebeccapurple;
+
+
+
+}
+
+.grid {
+
+
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+}
