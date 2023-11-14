@@ -138,7 +138,7 @@ div .text {
 /* animation */
 
 
-.parent {
+/* .parent {
   background-color: hsla(200, 100%, 20%);
   height: 400px;
   width: 400px;
@@ -147,14 +147,14 @@ div .text {
   background-color: red;
   height: 50%;
   width: 50%;
-  /* transition: transform 1s ease-in; */
+
   animation: left-to-right 1s ease-in forwards infinite alternate;
   
-}
+} */
 
-.parent:hover .child {
+/* .parent:hover .child {
 
-  /* transform: translateX(100%); */
+  
   animation-play-state:paused ;
  
 }
@@ -179,4 +179,4 @@ transform: translateX(100%) translateY(100%);
     background-color: white;
     transform: translateX(100%);
   }
-}
+} */
