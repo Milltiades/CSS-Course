@@ -180,3 +180,34 @@ transform: translateX(100%) translateY(100%);
     transform: translateX(100%);
   }
 } */
+
+body {
+  color: red;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-size: 4rem;
+}
+
+@media (max-width : 400px) {
+  body {
+    color: blue;
+  }
+}
+
+@media (orientation : landscape) , (max-width: 550px) {
+  .title {
+    color: green;
+  }
+}
+
+@media (orientation : portrait) {
+  .subtitle {
+    color: cyan;
+  }
+}
+
